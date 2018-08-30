@@ -1,0 +1,227 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+.title{
+	position: relative;
+	width: 200px;
+	height:30px; 
+	left: 50%;
+	margin-left: -100px;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+li{
+	float: left;
+	width:20px;
+	height: 20px;
+	border:2px solid gray;
+	list-style: none;
+	text-align: center;
+}
+.origin{
+	float: left;
+	width:20px;
+	height: 20px;
+	border:2px solid gray;
+	list-style: none;
+	text-align: center;
+}
+.mined{
+	float: left;
+	width:20px;
+	height:20px;
+	border:2px solid gray;
+	list-style: none;
+	text-align: center;
+	background-image: url(地雷1.JPG);
+	background-size: 100%;
+	background-position: 0 -1px;
+}
+.sign{
+	float: left;
+	width:20px;
+	height:20px;
+	border:2px solid gray;
+	list-style: none;
+	text-align: center;
+	background-image: url(小旗.JPG);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	opacity: 1;
+	background-color: white;
+}
+.click{
+	float: left;
+    width:20px;
+    height: 20px;
+    border:2px solid gray;
+    line-height: none;
+    text-align: center;
+    opacity: 0;
+}
+.start{
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 2px solid gray;
+	list-style: none;
+	text-align: center;
+	background-color: orange;
+	z-index: 999;
+
+}
+.coverprimary{
+	float: left;
+	width: 240px;
+	height: 240px;
+	border: 5px solid #424242;
+	position: absolute;
+	left: 50%;
+    margin-left: -125px;
+}
+.covermiddle{
+	float: left;
+	width: 432px;
+	height: 432px;
+	border: 5px solid #424242;
+	position: absolute;
+	left: 50%;
+    margin-left: -221px;
+}
+.coversenior{
+	float: left;
+	width: 576px;
+	height: 576px;
+	border: 5px solid #424242;
+	position: absolute;
+	left: 50%;
+    margin-left: -293px;
+}
+.ulinit{
+     display: none;
+}
+
+.chassisprimary{
+	float: left;
+    width: 240px;
+    height: 240px;
+    border:5px solid #424242;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+}
+.chassismiddle{
+	float: left;
+    width: 432px;
+    height: 432px;
+    border:5px solid #424242;
+    position: absolute;
+    left: 50%;
+    margin-left: -221px;
+}
+.chassissenior{
+	float: left;
+    width: 576px;
+    height: 576px;
+    border:5px solid #424242;
+    position: absolute;
+    left: 50%;
+    margin-left: -293px;
+}
+.body{
+	width:800px;
+	height: 600px;
+	border:5px solid gray;
+	position: relative;
+	left: 50%;
+	margin-left: -405px;
+}
+.button span {
+	color: #424242;
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	border-radius: 4px;
+	line-height: 20px;
+	padding: 0px 5px;
+	text-align: center;
+    background-color: pink;
+    cursor:pointer;
+}
+.button{
+	width:220px;
+	height: 20px;
+	padding: 10px 5px;
+	position: relative;
+	left: 50%;
+	margin-left: -110px;
+}
+.hide{
+	display: none;
+}
+.hided{
+	position: absolute;
+	width:1366px;
+	height:880px;
+	left: 0px;
+	top: 0px;
+}
+.pop{
+	width:200px;
+	height: 200px;
+	position:absolute;
+    left: 50%;
+    top:30%;
+    margin-left: -142px;
+    margin-top: -112px;
+    background-color: #ededed;
+    border:2px solid rgb(0,100,180);
+    border-radius: 10px;
+    padding:10px 40px;
+}
+.tips{
+	display: block;
+	width:200px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:red;
+    margin: 20px 0px 10px;
+}
+.tip{
+	display: block;
+	width: 200px;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #424242;
+}
+.onemore,.select{
+	float: left;
+	width:78px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	border:1px solid gray;
+	border-radius: 6px;
+	background-color: #d1eeee;
+    margin: 30px 10px ;
+    cursor: pointer;
+}
+
+
+
+
+
+
