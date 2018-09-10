@@ -1,1 +1,0 @@
-function A(){}function Index(){}function Index2(){var n=0;return n++}
